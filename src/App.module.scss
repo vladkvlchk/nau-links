@@ -1,0 +1,15 @@
+$mediumWidth: 420px;
+$bigWidth: 620px;
+.App{
+    max-width: 300px;
+    min-height: 100px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: black;
+    @media(min-width: $mediumWidth){
+        max-width: 400px;
+    }
+    @media(min-width: $bigWidth) {
+        max-width: 600px;
+    }
+}
