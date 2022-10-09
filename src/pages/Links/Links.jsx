@@ -1,4 +1,6 @@
 import React from 'react';
+import './Links.module.scss';
+
 const Links = () => {
     return (
         <div>
