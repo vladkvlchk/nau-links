@@ -1,0 +1,27 @@
+$color1: #B1D0E0;
+$color2: #6998AB;
+$color3: #406882;
+$color4: #1A374D;
+
+$mediumWidth: 420px;
+$bigWidth: 620px;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $color1;
+}
+.App{
+    max-width: 300px;
+    min-height: 100px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: $color2;
+    @media(min-width: $mediumWidth){
+        max-width: 400px;
+    }
+    @media(min-width: $bigWidth) {
+        max-width: 600px;
+    }
+}
