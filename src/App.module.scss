@@ -16,7 +16,8 @@ body{
     max-width: 300px;
     min-height: 100px;
     padding: 0 10px;
-    margin: 0 auto;
+    margin: 40px auto;
+    border-radius: 8px;
     background-color: $color2;
     @media(min-width: $mediumWidth){
         max-width: 400px;
