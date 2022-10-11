@@ -11,8 +11,8 @@ const Home = () => {
     <div className={classes.home}>
       <HeaderHome headerText="NAU ROUTER"/>
       {data.map(obj => {
-        return (<Link to={`/links/${obj.folder}`} >
-          <Folder text={obj.folder.toUpperCase()} in={obj.in} />
+        return (<Link key={obj.folder} to={`/links/${obj.folder}`} >
+          <Folder key={obj.folder} text={obj.folder.toUpperCase()} in={obj.in} />
         </Link>)
       })}
     </div>
