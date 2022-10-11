@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import "./Links.module.scss";
 
 const Links = () => {
-  let { name } = useParams();
-  return <div>{name}</div>;
+  let { folder } = useParams();
+  return <div>{folder}</div>;
 };
 
 export default Links;
