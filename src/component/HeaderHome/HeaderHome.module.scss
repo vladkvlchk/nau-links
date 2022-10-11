@@ -1,0 +1,13 @@
+.home__header{
+    color: #1A374D;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    line-height: 34px;
+    @media (min-width: 400px ){
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

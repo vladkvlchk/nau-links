@@ -3,8 +3,8 @@ $color2: #6998AB;
 $color3: #406882;
 $color4: #1A374D;
 
-$mediumWidth: 420px;
-$bigWidth: 620px;
+$mediumWidth: 400px;
+$bigWidth: 500px;
 *{
     margin: 0;
     padding: 0;
@@ -13,16 +13,17 @@ body{
     background-color: $color1;
 }
 .App{
-    max-width: 300px;
+    box-sizing: border-box;
+    max-width: 280px;
     min-height: 100px;
-    padding: 0 10px;
+    padding: 0 20px;
     margin: 40px auto;
     border-radius: 8px;
     background-color: $color2;
     @media(min-width: $mediumWidth){
-        max-width: 400px;
+        max-width: 380px;
     }
     @media(min-width: $bigWidth) {
-        max-width: 600px;
+        max-width: 480px;
     }
 }
