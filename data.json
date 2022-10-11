@@ -1,0 +1,85 @@
+[
+  {
+    "folder": "Факультети",
+    "in": [
+      {
+        "faculty": "ФККПІ",
+        "in": [
+          {
+            "name": "Студентська рада ФККПІ",
+            "link": "google.com"
+          },
+          {
+            "name": "Чат ФККПІ",
+            "link": "google.com"
+          },
+          {
+            "name": "Новини ФККПІ 3 курс",
+            "link": "google.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "СР",
+    "in": [
+      {
+        "name": "СР НАУ",
+        "link": "google.com"
+      },
+      {
+        "name": "СР Студмістечка",
+        "link": "google.com"
+      },
+      {
+        "name": "СР якоїсь мусорки",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "folder": "Гуртожитки",
+    "in": [
+      {
+        "dorm": "Гуртожиток 1",
+        "links": [
+          {
+            "name": "Чат гуртожитку",
+            "links": "google.com"
+          },
+          {
+            "name": "Канал гуртожитку",
+            "links": "google.com"
+          }
+        ]
+      },
+      {
+        "dorm": "Гуртожиток 2",
+        "links": [
+            {
+              "name": "Чат гуртожитку",
+              "links": "google.com"
+            },
+            {
+              "name": "Канал гуртожитку",
+              "links": "google.com"
+            }
+          ]
+      },
+      {
+        "dorm": "Гуртожиток 3",
+        "links": [
+            {
+              "name": "Чат гуртожитку",
+              "links": "google.com"
+            },
+            {
+              "name": "Канал гуртожитку",
+              "links": "google.com"
+            }
+          ]
+      }
+    ]
+  }
+]
