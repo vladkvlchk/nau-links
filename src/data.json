@@ -18,6 +18,23 @@
             "link": "google.com"
           }
         ]
+      },
+      {
+        "faculty": "ФККПІ2",
+        "in": [
+          {
+            "name": "Студентська рада ФККПІ",
+            "link": "google.com"
+          },
+          {
+            "name": "Чат ФККПІ",
+            "link": "google.com"
+          },
+          {
+            "name": "Новини ФККПІ 3 курс",
+            "link": "google.com"
+          }
+        ]
       }
     ]
   },
@@ -57,28 +74,28 @@
       {
         "dorm": "Гуртожиток 2",
         "links": [
-            {
-              "name": "Чат гуртожитку",
-              "links": "google.com"
-            },
-            {
-              "name": "Канал гуртожитку",
-              "links": "google.com"
-            }
-          ]
+          {
+            "name": "Чат гуртожитку",
+            "links": "google.com"
+          },
+          {
+            "name": "Канал гуртожитку",
+            "links": "google.com"
+          }
+        ]
       },
       {
         "dorm": "Гуртожиток 3",
         "links": [
-            {
-              "name": "Чат гуртожитку",
-              "links": "google.com"
-            },
-            {
-              "name": "Канал гуртожитку",
-              "links": "google.com"
-            }
-          ]
+          {
+            "name": "Чат гуртожитку",
+            "links": "google.com"
+          },
+          {
+            "name": "Канал гуртожитку",
+            "links": "google.com"
+          }
+        ]
       }
     ]
   }

@@ -1,8 +1,8 @@
 import React from 'react';
-const Button = () => {
+const Button = ({children}) => {
     return (
-        <div>
-            <button></button>
+        <div className={classes["home__container-folder"]}>
+            <button className={classes.home__folder}>{children}</button>
         </div>
     );
 }
